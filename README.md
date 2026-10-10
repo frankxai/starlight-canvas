@@ -8,8 +8,8 @@ The director’s room on the Starlight substrate. One infinite graph. Three hous
 | --- | --- |
 | Interactive studio | Live in the Starlight Canvas app. Publish that app. This repo is not a standalone Vercel project. |
 | Constitution | `AGENTS.md`, `SKILL.md`, `PHASES.md` |
-| Runtime | `studio/src/lib/studio` — graph, voices, memory, one Grok pass |
-| Room | `studio/src/components/studio` when the interface commit is on `main` |
+| Runtime | `studio/src/lib/studio` — graph, voices, four memory planes, one Grok pass |
+| Room | `studio/src/components/studio` — overture, infinite canvas, inspector, atlas |
 
 ## Live
 
