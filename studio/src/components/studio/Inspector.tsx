@@ -56,7 +56,7 @@ export function Inspector({ onClose }: { onClose?: () => void }) {
       const episode: Episode = {
         id: `gk-${Date.now()}`,
         house: node.house,
-        title: `Grok \u00b7 ${node.title}`,
+        title: `Grok · ${node.title}`,
         at: Date.now(),
         source: "grok",
         beats: [{ nodeId: node.id, title: node.title, role: node.role, text: res.text }],
@@ -180,7 +180,7 @@ export function Planes() {
         name="Episodic"
         text={
           log[0]
-            ? `${log[0].title} \u00b7 ${log[0].beats.length} beats`
+            ? `${log[0].title} · ${log[0].beats.length} beats`
             : "No runs yet."
         }
       />
